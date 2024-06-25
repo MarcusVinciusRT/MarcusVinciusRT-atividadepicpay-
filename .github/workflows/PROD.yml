@@ -26,11 +26,11 @@ jobs:
 
     - name: Test with coverage
       run: |
-        coverage run rpa.py
+        coverage run teste.py
         coverage report
     
     - name: Versão do push
-      run: echo DEV-1.${{ github.run_number }}
+      run: echo PROD-1.${{ github.run_number }}
 
     - name: Log in to Docker Hub
       env:
