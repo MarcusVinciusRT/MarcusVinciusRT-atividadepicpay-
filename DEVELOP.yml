@@ -2,7 +2,7 @@ name: Dev Python App
 
 on:
   push:
-    branches: [ "DEVLOP" ]
+    branches: [ "DEVELOP" ]
 
 permissions:
   contents: write
